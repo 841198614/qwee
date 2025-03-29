@@ -1,4 +1,4 @@
-"local osclock=os.clock
+local osclock=os.clock
 local tspawn=task.spawn
 local twait=task.wait
 local schar=string.char
@@ -2499,4 +2499,4 @@ if not pcall(insSet,i10,"Parent",FindFirstChildOfClass(game,"CoreGui")) then
 	insSet(i10,"Parent",pg)
 	twait(3)
 	insSet(i7,"Text",guiTheme.guiTitle)
-end"
+end
